@@ -1,0 +1,21 @@
+body {
+	font-family: $font-family;
+	background: #F6F6F6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $heading-color;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+	
+}

@@ -1,0 +1,54 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+$font-family:						"korolev";
+$font-heading:					"caflisch-script-pro";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+// $brand-primary:         #B23A2A;
+$brand-primary:         #1F6CAA;
+$brand-secondary:				#1F6CAA;
+$font-color:						#707070;
+$heading-color:					#444444;
+$light-gray:						#EAEAEA;
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin background-black-transparent() {
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.8);	
+}
+
+@mixin background-cover() {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+@mixin shadow() {
+	-webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.2);	
+}
+
+@mixin inset() {
+	-webkit-box-shadow:inset 0 0 2000px 0 rgba(0,0,0,.8);
+	box-shadow:inset 0 0 2000px 0 rgba(0,0,0,.8);
+}
+
+@mixin hover-transition() {
+	-webkit-transition: 	all .5s ease-in-out;
+	-moz-transition: 			all .5s ease-in-out;
+	-ms-transition: 			all .5s ease-in-out;
+	-o-transition: 				all .5s ease-in-out;
+	transition: 					all .5s ease-in-out;	
+}

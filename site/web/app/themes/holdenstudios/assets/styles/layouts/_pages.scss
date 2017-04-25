@@ -1,0 +1,370 @@
+div.page-header {
+	text-align: center;
+	border-bottom: none;
+	clear: both;
+	h1 {
+		display: inline-block;
+		margin: 0 0 5px;
+		padding: 0 10px;
+		border-left: 4px solid $brand-primary;
+		border-right: 4px solid $brand-primary;
+		font-size: 30px;
+		line-height: 30px;		
+	}
+}
+
+
+// ACF Section Header
+.section-head {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	h2 {
+		display: inline-block;
+		margin: 0 0 5px;
+		padding: 0 10px;
+		border-left: 4px solid $brand-primary;
+		border-right: 4px solid $brand-primary;
+		font-size: 30px;
+		line-height: 30px;	
+	}
+	em {
+		display: block;
+		font-size: 12px;
+	}
+}
+.section-head-content {
+	margin-bottom: 30px;
+	p {
+		font-size: 14px;
+		line-height: 20px;
+		color: $font-color;
+		font-weight: 300;
+		text-align: center;		
+	}	
+}
+
+// ACF Product Category Grid
+.cat {
+	margin-bottom: 40px;
+	.cat-inner {
+		position: relative;
+		margin-right: 20px;
+		margin-left: 20px;
+		
+		@media (min-width: $screen-sm-min) { 
+			margin-right: 0;
+			margin-left: 0;
+		}
+		
+		h2 {
+			position: absolute;
+			left: 0;
+			top: 0;
+			@include background-black-transparent();
+			margin: 0;
+			text-align: left;
+			color: #fff;
+			padding: 10px 20px;
+			font-weight: 300;
+			font-size: 20px;
+		}	
+	}	
+}
+
+// ACF Featured Products
+.featured-products {
+	margin-bottom: 40px;
+	.featured-product-wrap {
+		margin-bottom: 40px;
+		.featured-inner {
+			background: #fff;
+			padding: 20px;
+			text-align: center;
+			margin: 0 15px;
+			@include shadow();
+			
+			h4 {
+				margin: 0;
+				font-size: 20px;
+			}
+			
+			.product_meta {
+				color: $brand-primary;
+				font-size: 12px;
+				margin-bottom: 20px;
+			}
+			
+			p.price {
+				font-size: 14px;
+				line-height: 24px;
+				margin: 10px 0 10px;
+				font-weight: 300;
+				
+				.amount {
+					font-weight: 700;
+					color: $heading-color;
+					font-size: 18px;
+				}
+				
+				.from {
+					color: #6F6F6F;
+				}
+								
+			}
+
+			.button {
+				background: $brand-primary;
+				display: inline-block;
+				text-transform: uppercase;
+				color: #fff;
+				font-weight: bold;
+				font-size: 14px;
+				@include border-radius(3px);
+				padding: 5px 20px;
+			}
+			
+		}
+	}
+}
+
+// ACF Call To Action
+.cta-top {
+	padding-top: 30px;
+	padding-bottom: 150px;
+	@include background-cover();
+	@include inset();
+
+	.section-head {
+		h2 {
+			color: #fff;	
+		}
+		em {
+			color: #fff;
+		}
+	}
+
+	.section-head-content {
+		p {
+			color: #fff;	
+		}	
+	}
+
+}
+
+.cta-bottom {
+	margin-bottom: 50px;
+	.cta {
+		.col-sm-10 {
+			.cta-lower-inner {
+				background: #fff;
+				@include shadow();
+				margin-top: -130px;
+			}
+		}
+	}
+	.cta-content-inner {
+		padding: 20px;
+		margin-right: 30px;
+		
+		h3 {
+			font-size: 22px;
+			position: relative;
+			display: block;
+			
+			@media (min-width: $screen-sm-min) { 
+				font-size: 26px;
+			}
+			
+			span {
+				display: inline-block;
+				position: relative;
+				z-index: 2;
+				background: #fff;
+				padding-right: 5px;
+			}
+			
+			&:after {
+				content: '';
+				width: 100%;
+				height: 3px;
+				background: $brand-primary;
+				position: absolute;
+				bottom: 5px;
+				left: 0;
+				display: block;
+			}
+			
+		}
+		
+	}
+}
+
+// ACF Blog Posts
+.blog-post {
+	background: #EAEAEA;
+	margin-bottom: 40px;
+	position: relative;
+	
+	.blog-content {
+		background: #fff;
+		margin: 20px;
+		padding: 20px;
+		
+		@media (min-width: $screen-sm-min) { 
+			margin: 30px -30px 30px -60px;
+			padding: 30px;
+		}
+		
+		h4 {
+			font-weight: 500;
+			margin-top: 0;
+			position: relative;
+
+			span {
+				display: inline-block;
+				position: relative;
+				z-index: 2;
+				background: #fff;
+				padding-right: 5px;
+			}
+
+			&:after {
+				content: '';
+				width: 100%;
+				height: 3px;
+				background: $heading-color;
+				position: absolute;
+				bottom: 3px;
+				left: 0;
+				display: block;
+			}
+
+		}
+		
+	}
+	
+	.col-sm-pull-5 {
+		.blog-content {
+			@media (min-width: $screen-sm-min) { 
+				margin-left: -30px;
+				margin-right: -60px;
+			}
+			
+		}
+	}
+	
+}
+
+.acf-content {
+
+}
+
+.filter-wrap {
+	border-top: 1px solid $light-gray;
+	padding-top: 30px;
+	margin-top: 30px;
+	
+	.filter {
+		margin: 0 5px;	
+	}
+}
+
+#portfolio,
+#business {
+	padding: 5px;
+	
+	margin-top: 20px;
+	.mix {
+		display: none;
+		width: 50%;
+		float: left;
+		padding: 5px;
+	}
+	
+	@media (min-width: $screen-sm-min) { 
+		.mix {
+			width: 33.3333%;
+		}
+	}
+
+	@media (min-width: $screen-md-min) { 
+		.mix {
+			width: 25%;
+		}
+	}
+
+	@media (min-width: $screen-lg-min) { 
+		.mix {
+			//width: 20%;
+		}
+	}
+	
+}
+
+.product-buttons {
+	padding-top: 20px;
+	
+	a.btn {
+		display: inline-block;
+		margin: 0 10px;
+		margin-bottom: 10px;
+	}
+		
+}
+
+.contact-info {
+	background: $brand-secondary;
+	color: #fff;
+	margin-left: -30px;
+	margin-top: -15px;
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	h3 {
+		color: #99CCF6;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			clear: both;
+			margin-bottom: 20px;
+			font-weight: 300;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	
+	ul.social {
+		@extend .clearfix;
+		margin-top: 30px;
+		li {
+			float: left;
+			clear: none;
+			margin-bottom: 0;
+		}
+	}
+	
+	i {
+		font-size: 20px;
+		float: left;
+		width: 25px;
+		color: #6BAEE4;
+		text-align: center;
+		margin-right: 5px;
+	}
+	
+	a {
+		color: #99CCF6;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+}

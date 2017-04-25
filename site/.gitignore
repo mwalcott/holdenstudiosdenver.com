@@ -1,0 +1,43 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+!web/app/plugins/advanced-custom-fields-pro/
+!web/app/plugins/gravityforms/
+!web/app/plugins/gravityformsuserregistration/
+!web/app/plugins/woocommerce-catalog-visibility-options/
+!web/app/plugins/woocommerce-gateway-stripe/
+!web/app/plugins/woocommerce-product-addons/
+!web/app/plugins/wp-migrate-db-pro/
+!web/app/plugins/wp-migrate-db-pro-media-files/
+!web/app/plugins/visual-product-configurator/
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
+
+.DS_Store
+.DS_Store?

@@ -1,0 +1,128 @@
+.vpc-component {
+	background: #fff;
+	@include shadow();
+	margin-bottom: 20px;
+	border: none !important;
+	
+	.vpc-component-header {
+		span {
+			font-size: 16px;
+			font-weight: 700;
+			color: $heading-color;
+			@include hover-transition();
+		}
+		
+		.txt.vpc-selected {
+			color: $font-color;
+			font-weight: 300;
+			font-size: 12px;	
+		}
+		
+	}
+	
+	.vpc-group-name {
+		display: block;
+	}
+
+	.vpc-options {
+		background: transparent;
+		
+		label.custom {
+				width: 42px;
+				height: 42px;
+				margin: 4px;
+				border: none;
+				//background: #ba2000;
+				
+				&:before {
+				width: 42px;
+				height: 42px;
+				background-size: cover;
+				background-position: center center;
+				line-height: 42px;
+				font-size: 20px;
+			}
+		}
+	}
+	
+	
+	&:hover {
+		
+		.vpc-component-header {
+			span {
+				color: $brand-primary;
+			}
+		}
+		
+	}
+
+}
+#vpc-container {
+	#vpc-components {
+		margin-top: 60px;
+	}
+	#vpc-price-container {
+		.vpc-price-label {
+			color: $font-color !important;
+		}
+		#vpc-price {
+			color: $brand-primary;
+		}
+	}
+	#vpc-preview {
+		border: none;
+		@media (min-width: $screen-sm-min) {
+			margin-left: 20px;
+			//padding: 10px;
+			background: #fff;
+			@include shadow();
+		}
+		
+	}
+	
+}
+#vpc-add-to-cart {
+	@extend .btn;
+	@extend .btn-primary;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	margin-left: 20px;
+}
+#vpc-qty-container {
+	#vpc-qty {
+		background: #fff;
+		@include shadow();
+		outline: none;
+		margin: 0 5px;
+		font-size: 16px;
+	}
+	input[type="button"] {
+		background: $brand-primary !important;
+		font-weight: 700 !important;
+		font-size: 16px !important;
+	}
+}
+
+.vpc-action-buttons {
+	margin: 0 auto;
+	padding-top: 20px;
+	display: block;
+	text-align: center;
+	width: 100%;
+	@extend .clearfix;
+	.col {
+		width: 100%;
+	}
+	
+	@media (min-width: $screen-sm-min) { 
+		text-align: left;
+	}
+	
+}
+#vpc-qty-container {
+	text-align: center;
+	margin-bottom: 10px;
+}
+#vpc-add-to-cart {
+	margin-left: 10px;
+}

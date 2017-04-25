@@ -1,0 +1,72 @@
+Version 2.3.7 - July 19th, 2016
+-Added ability to hide linked products in the cart
+-Added controls to prevent a linked product to be removed from the cart without the main one
+-Fixed price format issue when there is a space between the currency and the price
+-Fixed max_input_vars verification issue
+
+Version 2.3.6 - June 9th, 2016
+-Fixed issue when conditionnal rules disappear
+-Fixed issue with polylang language switcher on configuration page
+-Fixed fatal error (eval) when creating a new configuration
+
+Version 2.3.5 - May 20th, 2016
+-Added ability to select an option in the conditional rules
+-Added compatibility with Polylang
+-Added or relationship for conditions in groups
+-Fixed issue: after the rules are applied, the first element available in a component should be selected if there is no other option checked
+-Fixed issue: multiple selections are not shown properly on the featured image area in the cart
+-Fixed price formatting issue with woocommerce standards
+-Fixed multiple selections issue on the cart and checkout pages
+-Fixed order again issue
+-Changed hooks priority to fixed issue with woocommerce multilingual plugin
+
+Version 2.3.4 - February 12th, 2016
+-Fixed issue on conditionnal rules where options and components ID are generated manually
+-Fixed bootstrap modal conflicts
+-Improved conditionnal rules screen
+
+Version 2.3.3 - February 1st, 2016
+-Added version to javascript files loadings
+-Improved configurations in cart storage to avoid conflicts with other plugins
+-Fixed issue: images on the configuration page are not loaded since the last update.
+
+Version 2.3.2 - January 28th, 2016
+-Added lazyload feature in the configurations creation screen to improve the speed for large configurations
+-Added configuration image as thumbnail for the product on the cart page
+-Added setting to hide the add to cart button for configurable products
+-Removed sessions usage configurations in cart
+-Fuxed issue: configuration page issue with WPML when the page translation is not available
+-Fixed issue: the search field in the medias modal is not usable when configuring the options
+-Fixed sort issue for options
+-Fixed issue: The components and options fields can't be edited on firefox
+-Fixed issue: currency don't show up with price when the ajax loading is enabled
+-Fixed issue: Tooltips are not loaded when the ajax loading is enabled
+-Fixed issue: variations configurations are not saved when we click on the publish/save button without displaying the variations
+
+Version 2.3.1 - December 28th, 2015
+-Fixed javascript issue outside the configurator page
+
+Version 2.3 - December 24th, 2015
+-Added description to option tooltip
+-Added number of fields verification in forms to avoid data lost due to max input vars
+-Improved conditionnal rules feature
+-Improved plugin speed
+
+Version 2.2 - December 13rd, 2015
+-Fixed javascript issue that prevent the configurator to load properly
+-Fixed issue: variations configurations are not saved when we click on the Save changes button
+-Fixed issue: icons disappear sometimes when the options names contains characters that can't be included in urls
+
+Version 2.1 - December 07th, 2015
+-Added ability to duplicate a configuration
+-Added ability to update the plugin from wordpress dashboard (require envato username, api key and purchase code)
+-Updated user manual
+-Updated language files
+-Added ability to load the configurator via ajax
+-Added ability to reorganize the components and options when creating a component
+-Fixed issue: configurator is very slow after the update to 2.0
+
+Version 2.0 - November 23rd, 2015
+-Fully rewritten plugin which is more integrated in the wordpress ecosytem
+-Added developer API to develop addons
+-After the update, remember to run the database upgrade using this button http://prntscr.com/95wzuc visible in the admin area so the new version can migrate the old configurations to the new structure
