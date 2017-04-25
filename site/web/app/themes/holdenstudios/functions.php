@@ -36,6 +36,7 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 
 
 remove_action( 'woocommerce_before_shop_loop_item', 'woocommerce_template_loop_product_link_open', 10 );
@@ -45,7 +46,7 @@ remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_pr
 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 8 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 6 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 7 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 30 );
 
 function open_product_wrapper() {
 	echo '<div class="product-info">';

@@ -109,6 +109,7 @@ a[data-product_sku="cf-custom"] {
 				border-bottom: 1px solid $light-gray;
 				padding-bottom: 20px;
 				margin-bottom: 20px;
+				clear: both;
 				select {
 					min-width: 100%;
 					background: #fff;
@@ -132,6 +133,24 @@ a[data-product_sku="cf-custom"] {
 				label[for="pa_size"] {
 					padding-top: 10px;
 					font-size: 20px;
+					display: block;
+					&:before {
+						content: '*';
+						color: #ba2000;
+						font-size: 12px;
+						position: relative;
+						top: -5px;
+						display: inline-block;
+						margin-right: 2px;
+					}
+					&:after {
+						content: '* Required Fields';
+						font-size: 12px;
+						float: right;
+						color: #ba2000;
+						position: relative;
+						top: 8px;
+					}
 				}
 				div.value {
 					margin-bottom: 10px;
