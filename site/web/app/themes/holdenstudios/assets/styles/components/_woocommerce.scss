@@ -106,8 +106,8 @@ a[data-product_sku="cf-custom"] {
 			position: relative;
 			margin-bottom: 20px;
 			.variations {
-				border-bottom: 1px solid $light-gray;
-				padding-bottom: 20px;
+				//border-bottom: 1px solid $light-gray;
+				//padding-bottom: 20px;
 				margin-bottom: 20px;
 				clear: both;
 				select {
@@ -159,10 +159,10 @@ a[data-product_sku="cf-custom"] {
 			}
 			
 			.single_variation_wrap {
-				background: #fff;
-				padding: 20px 20px;
+				//background: #fff;
+				padding: 0px 0px;
 				@extend .clearfix;
-				@include shadow();
+				//@include shadow();
 				
 				.woocommerce-variation {
 					float: right;	
