@@ -32,6 +32,10 @@ function woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
 
+function woocommerce_shipping_content() {
+	echo '<p><strong>Ships FREE within 7-10 business days.</strong></p>';
+}
+
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
@@ -47,6 +51,7 @@ remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_pr
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 8 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 6 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 30 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_shipping_content', 30 );
 
 function open_product_wrapper() {
 	echo '<div class="product-info">';
