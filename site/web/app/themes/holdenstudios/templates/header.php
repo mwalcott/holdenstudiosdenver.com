@@ -35,5 +35,8 @@
   </div>
 </header>
 
+<?php if(is_page(100)) { ?>
 
-<?= Holden\jumbotron(); ?>
+<?php } else { ?>
+	<?= Holden\jumbotron(); ?>
+<?php } ?>
