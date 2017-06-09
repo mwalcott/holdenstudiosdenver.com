@@ -28,7 +28,7 @@ use Roots\Sage\Wrapper;
 	      do_action('get_header');
 	      get_template_part('templates/header');
 	    ?>
-	    <h1 style="text-align: center;">Custom Business Signs</h1>
+	    <h1 style="text-align: center;">Custom Signs</h1>
 			<div id="business" class="container-fluid clearfix">
 				<?php 
 				$args = array(
