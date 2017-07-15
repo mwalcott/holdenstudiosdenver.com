@@ -50,6 +50,7 @@
     "wpackagist-plugin/regenerate-thumbnails": "2.2.6",
     "wpackagist-plugin/woocommerce-social-media-share-buttons": "1.3.0",
     "wpackagist-plugin/woocommerce-google-adwords-conversion-tracking-tag": "1.3.5",
+    "wpackagist-plugin/wordfence": "6.3.12",
     "roots/soil": "3.7.0"    
   },
   "require-dev": {
