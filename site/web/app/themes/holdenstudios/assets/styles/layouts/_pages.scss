@@ -374,3 +374,49 @@ p.wholesale {
 	margin-bottom: 2em;
 	margin-top: 2em;
 }
+
+.owl-carousel {
+	.owl-item {
+		
+		> div {
+			@include background-cover();
+			min-height: 60vh;	
+			position: relative;
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background:  rgb(0,0,0);
+				background: rgba(0,0,0,.3);
+			}
+			.content {
+				position: absolute;
+				bottom: 2em;
+				left: 2em;
+				color: #fff;
+				z-index: 200;
+				h2 {
+					margin: 0 0 .2em;
+					text-transform: uppercase;
+					font-size: 2em;
+				}
+				h3 {
+					text-transform: none;
+					margin: 0 0 .8em;
+					font-size: 1.3em;
+				}
+				h2, h3 {
+					color: #fff;
+				}
+				.btn {
+					font-size: 1.5em;
+					font-weight: 700;
+					text-transform: uppercase;
+				}
+			}		
+		}
+	}
+}

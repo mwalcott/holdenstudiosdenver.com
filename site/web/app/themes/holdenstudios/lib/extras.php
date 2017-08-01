@@ -63,6 +63,52 @@ function jumbotron() { ?>
 <?php }
 
 /**
+ * Jumbotron - Main Banner at the top of pages
+ */
+function carouselHome() { ?>
+
+	<?php if( is_front_page() ) { ?>
+		
+	
+		<div class="owl-carousel">
+
+			<?php
+			
+			// check if the repeater field has rows of data
+			if( have_rows('slides') ):
+			
+			 	// loop through the rows of data
+			    while ( have_rows('slides') ) : the_row(); ?>
+			
+			        <div style="background-image: url(<?php the_sub_field('slide_image'); ?>)">
+			        	<div class="content">
+				        	<h2><?php the_sub_field('heading'); ?></h2>
+				        	<h3><?php the_sub_field('sub_heading'); ?></h3>
+				        	<a class="btn btn-primary" href="<?php the_sub_field('button_url'); ?>">
+					        	<?php the_sub_field('button_text'); ?>
+				        	</a>
+			        	</div>
+			        </div>
+			
+			    <?php endwhile;
+			
+			else :
+			
+			    // no rows found
+			
+			endif;
+			
+			?>
+			
+		</div>
+
+
+	<?php } ?>
+
+
+<?php }
+
+/**
  * Cart Items
  */
 function cart_items() {

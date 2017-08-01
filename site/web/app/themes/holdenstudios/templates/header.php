@@ -35,8 +35,12 @@
   </div>
 </header>
 
-<?php if(is_page(100)) { ?>
+<?php if(is_page(100) || is_front_page()) { ?>
 
 <?php } else { ?>
 	<?= Holden\jumbotron(); ?>
+<?php } ?>
+
+<?php if( is_front_page() ) { ?>
+	<?= Holden\carouselHome(); ?>
 <?php } ?>
