@@ -390,7 +390,14 @@ p.wholesale {
 				right: 0;
 				bottom: 0;
 				background:  rgb(0,0,0);
-				background: rgba(0,0,0,.3);
+				background: rgba(0,0,0,.0);
+				@include hover-transition();
+			}
+			&:hover {
+				&:after {
+					background:  rgb(0,0,0);
+					background: rgba(0,0,0,.0);					
+				}
 			}
 			.content {
 				position: absolute;
@@ -416,7 +423,14 @@ p.wholesale {
 					font-weight: 700;
 					text-transform: uppercase;
 				}
-			}		
+			}	
+			
+			@media (min-width: $screen-sm-min) { 
+				&:after {
+					background:  rgb(0,0,0);
+					background: rgba(0,0,0,.3);
+				}
+			}	
 		}
 	}
 }

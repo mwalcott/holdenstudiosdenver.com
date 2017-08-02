@@ -29,6 +29,7 @@ use Roots\Sage\Wrapper;
 	      get_template_part('templates/header');
 	    ?>
 	    <h1 style="text-align: center;">Custom Gallery</h1>
+	    <p style="text-align: center;">Call <a href="tel:720-360-5090">720-360-5090</a> for a quick quote on a custom burned flag.</p>
 			<div id="business" class="container-fluid clearfix">
 				<?php 
 				$args = array(
