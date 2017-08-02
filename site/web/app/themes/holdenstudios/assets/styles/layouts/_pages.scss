@@ -377,11 +377,17 @@ p.wholesale {
 
 .owl-carousel {
 	.owl-item {
-		
+		overflow: hidden;
 		> div {
 			@include background-cover();
 			min-height: 60vh;	
 			position: relative;
+			-moz-transform: 		scale(1);
+			-webkit-transform: 	scale(1);
+			-o-transform: 			scale(1);
+			-ms-transform: 			scale(1);
+			transform: 					scale(1);
+			@include hover-transition();
 			&:after {
 				content: '';
 				position: absolute;
@@ -394,6 +400,12 @@ p.wholesale {
 				@include hover-transition();
 			}
 			&:hover {
+				-moz-transform: 		scale(1.05);
+				-webkit-transform: 	scale(1.05);
+				-o-transform: 			scale(1.05);
+				-ms-transform: 			scale(1.05);
+				transform: 					scale(1.05);
+				
 				&:after {
 					background:  rgb(0,0,0);
 					background: rgba(0,0,0,.0);					
