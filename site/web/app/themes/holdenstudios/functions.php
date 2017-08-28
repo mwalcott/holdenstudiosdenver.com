@@ -33,7 +33,7 @@ function woocommerce_support() {
 }
 
 function woocommerce_shipping_content() {
-	echo '<p><strong>Ships FREE within 7-10 business days.</strong></p>';
+	echo '<p class="ships-free"><strong>Ships FREE within 7-10 business days.</strong></p>';
 }
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );

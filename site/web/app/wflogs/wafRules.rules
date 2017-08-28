@@ -308,6 +308,12 @@ if (match('/\/wp\-admin[\/]+admin\-ajax\.php/i', request.path) and currentUserIs
 if (currentUserIsNot('administrator', server.empty) and match('#monetize[\/]+templatic\-custom_fields[\/]+single\-upload\.php#i', request.path)):
 	block(id=89, category='file_upload', description='Tevolution <= 2.3.6 - Arbitrary File Upload')
 
+if (currentUserIsNot('administrator', server.empty) and match('#/wp\-admin/admin\-ajax\.php$#i', server.script_filename) and match('/^(?:nopriv_)?td_ajax_update_panel$/i', request.body.action, request.queryString.action)):
+	block(id=91, category='auth-bypass', description='Newspaper Premium Theme <= 6.7.1 - Privilege Escalation', whitelist=0)
+
+if (match('/\/wp\-admin\/admin\-ajax\.php$/i', server.script_filename) and match('/parse\-media\-shortcode/i', request.body.action, request.queryString.action) and match('/\[\s*?wpstatistics/i', request.body.shortcode, request.queryString.shortcode) and contains('\'', request.body.shortcode, request.queryString.shortcode)):
+	block(id=92, category='sqli', description='WP Statistics <= 12.0.7 - Blind SQL Injection')
+
 if (matchCount(sqliRegex, request.body, request.queryString)):
 	failSQLi(id=3, category='sqli', score=40, description='SQL Injection')
 
