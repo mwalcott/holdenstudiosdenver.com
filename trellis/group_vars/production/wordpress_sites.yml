@@ -17,6 +17,8 @@ wordpress_sites:
     ssl:
       enabled: true
       provider: letsencrypt
+    env:
+    	disable_wp_cron: true
     cache:
       enabled: false
       duration: 30s
