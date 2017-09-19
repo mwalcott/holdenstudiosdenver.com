@@ -12,13 +12,12 @@ wordpress_sites:
     repo: git@github.com:mwalcott/holdenstudiosdenver.com.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
+    disable_wp_cron: true
     multisite:
       enabled: false
     ssl:
       enabled: true
       provider: letsencrypt
-    env:
-    	disable_wp_cron: true
     cache:
       enabled: false
       duration: 30s
