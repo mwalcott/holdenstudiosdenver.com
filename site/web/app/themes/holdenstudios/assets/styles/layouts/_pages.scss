@@ -398,8 +398,6 @@ p.wholesale {
 				left: 0;
 				right: 0;
 				bottom: 0;
-				background:  rgb(0,0,0);
-				background: rgba(0,0,0,.0);
 				@include hover-transition();
 			}
 			&:hover {
@@ -412,8 +410,7 @@ p.wholesale {
 				}
 				
 				&:after {
-					background:  rgb(0,0,0);
-					background: rgba(0,0,0,.0);					
+
 				}
 			}
 			.content {
@@ -444,8 +441,10 @@ p.wholesale {
 			
 			@media (min-width: $screen-sm-min) { 
 				&:after {
+/*
 					background:  rgb(0,0,0);
 					background: rgba(0,0,0,.3);
+*/
 				}
 			}	
 		}
