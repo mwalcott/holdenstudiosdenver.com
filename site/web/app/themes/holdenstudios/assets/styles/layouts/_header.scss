@@ -178,3 +178,24 @@ body.home {
 		padding-bottom: 0;
 	}
 }
+
+
+.header-contact {
+	ul {
+		list-style: none;
+		padding: 0; 
+		margin: 0;
+		li {
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			a {
+				display: block;
+				padding: 8px 10px;
+				@media (min-width: $screen-sm-min) {
+					padding: 20px 10px;
+				}
+			}
+		}
+	}
+}

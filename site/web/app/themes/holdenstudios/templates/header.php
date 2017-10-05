@@ -10,7 +10,25 @@
 
 		<div class="top-bar clearfix">
 			<a class="hamburger visible-xs pull-left" href="#my-menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+			<div class="pull-left header-contact">
+			  <ul>
+				  <li>
+				  	<a href="tel:<?php the_field('phone_number', 'option'); ?>">
+					  	<i class="fa fa-phone" aria-hidden="true"></i> 
+					  	<span class="hidden-xs"><?php the_field('phone_number', 'option'); ?></span>
+					  </a>
+				  </li>
+				  <li>
+				  	<a href="mailto:holdenstudiosdenver@gmail.com">
+					  	<i class="fa fa-envelope-o" aria-hidden="true"></i> 
+					  	<span class="hidden-xs">holdenstudiosdenver@gmail.com</span>
+					  </a>
+				  </li>
+			  </ul>
+				
+			</div>
 			<div class="pull-right">
+				
 		    <?php
 			    if (has_nav_menu('user_navigation')) :
 			      wp_nav_menu(['theme_location' => 'user_navigation', 'menu_class' => 'nav user-nav pull-left']);
