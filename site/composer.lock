@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "301aa0056f593177fd7f092d0281dae7",
+    "content-hash": "8f532906623528c19156347ce7ba96dd",
     "packages": [
         {
             "name": "composer/installers",
@@ -607,6 +607,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce-google-adwords-conversion-tracking-tag/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-mailchimp",
+            "version": "2.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-mailchimp/",
+                "reference": "tags/2.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-mailchimp.2.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-mailchimp/"
         },
         {
             "name": "wpackagist-plugin/woocommerce-social-media-share-buttons",
