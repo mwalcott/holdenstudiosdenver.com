@@ -379,6 +379,30 @@ p.wholesale {
 }
 
 .owl-carousel {
+	position: relative;
+	.owl-nav {
+		position: absolute;
+		left: 0; 
+		right: 0;
+		margin-top: -37px;
+		top: 50%;
+		.owl-prev,
+		.owl-next {
+			color: #fff;
+			padding: 2rem;
+			i.fa {
+				font-size: 4rem;
+				line-height: 2.8rem;
+			}
+		}
+		.owl-prev {
+			float: left;
+		}
+		.owl-next {
+			float: right;
+		}
+	}
+	
 	.owl-item {
 		overflow: hidden;
 		> div {

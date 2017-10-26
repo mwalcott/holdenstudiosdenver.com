@@ -35,9 +35,13 @@
 				$(".owl-carousel").owlCarousel({
 					loop:true,
 					margin:2,
-					nav:false,
-					dot:true,
+					nav:true,
+					dot:false,
 					autoplay:true,
+					navText: [
+					   "<i class='fa fa-angle-left'></i>",
+					   "<i class='fa fa-angle-right'></i>"
+					],
 					responsive:{
 				    0:{
 			        items:1
