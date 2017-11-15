@@ -19,9 +19,9 @@
 					  </a>
 				  </li>
 				  <li>
-				  	<a href="mailto:holdenstudiosdenver@gmail.com">
+				  	<a href="mailto:info@holdenstudiosdenver.com">
 					  	<i class="fa fa-envelope-o" aria-hidden="true"></i> 
-					  	<span class="hidden-xs">holdenstudiosdenver@gmail.com</span>
+					  	<span class="hidden-xs">info@holdenstudiosdenver.com</span>
 					  </a>
 				  </li>
 			  </ul>
@@ -39,7 +39,9 @@
 		</div>
 
 		<div class="logo-content container-fluid">
-			<img class="img-responsive normal" src="<?= get_template_directory_uri(); ?>/dist/images/logo.png"/>
+			<a href="<?= esc_url(home_url('/')); ?>">
+				<img class="img-responsive normal" src="<?= get_template_directory_uri(); ?>/dist/images/logo.png"/>
+			</a>
 		</div>
 		  
     <nav class="nav-primary hidden-xs">

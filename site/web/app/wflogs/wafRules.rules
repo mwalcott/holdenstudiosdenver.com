@@ -28,7 +28,7 @@ whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['newWhi
 whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['newWhitelistedParam'])
 whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['bannedURLs'])
 whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['scan_include_extra'])
-whitelistParam(url='/\/wp-admin\/(?:network\/)?(?:plugin|theme)-editor\.php$/i', param=request.body['newcontent'])
+whitelistParam(url='/\/wp-admin\/(?:network\/)?(?:(?:plugin|theme)-editor|admin-ajax)\.php$/i', param=request.body['newcontent'])
 whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['widget-text'])
 whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['widget-custom_html'])
 whitelistParam(url='/.{0,1}/', param=request.queryString['_wp_http_referer'])
@@ -313,6 +313,30 @@ if (currentUserIsNot('administrator', server.empty) and match('#/wp\-admin/admin
 
 if (match('/\/wp\-admin\/admin\-ajax\.php$/i', server.script_filename) and match('/parse\-media\-shortcode/i', request.body.action, request.queryString.action) and match('/\[\s*?wpstatistics/i', request.body.shortcode, request.queryString.shortcode) and contains('\'', request.body.shortcode, request.queryString.shortcode)):
 	block(id=92, category='sqli', description='WP Statistics <= 12.0.7 - Blind SQL Injection')
+
+if (match('#%%(?:COMMENTS|INJECTLATER)%%#', request.queryString, request.body)):
+	block(id=93, category='lfi', description='Autoptimize <= 2.1.0 - Unauthenticated Local File Inclusion')
+
+if (currentUserIsNot('administrator', server.empty) and match('/Save\sSetting/i', request.body.savesetting) and (match('/(p(h(p|tml)[0-9]?|l|y)|(j|a)sp|aspx|sh|shtml|html?|cgi|htaccess|ini|exe)/i', request.body.accepted_file_types) or match('/(p(h(p|tml)[0-9]?|l|y)|(j|a)sp|aspx|sh|shtml|html?|cgi|htaccess|ini|exe)/i', request.body.inline_file_types))):
+	block(id=94, category='file_upload', description='jQuery HTML5 File Upload <= 3.0 - Unauthenticated Options Update and Arbitrary File Upload')
+
+if (match('/(^|;|{|})O:+?\+*[0-9]+:(?!"stdClass")/i', base64decode(request.body['wpgform-action'])) or match('/(^|;|{|})O:+?\+*[0-9]+:(?!"stdClass")/i', base64decode(request.body['wpgform-options']))):
+	block(id=95, category='obji', description='Google Forms <= 0.86 - Unauthenticated Object Injection')
+
+if (match('/(^|;|{|})O:+?\+*[0-9]+:(?!"stdClass")/i', base64decode(request.body.wpadm_stat_request))):
+	block(id=96, category='obji', description='Analytics Stats Counter Statistics <= 1.2.2.5 - Unauthenticated Object Injection')
+
+if ((md5Equals('198aabe4bd99c673ae7afe8ebc4ed5e9', request.body.action) or md5Equals('b5005a70ff75a19720c2d62fe51232f9', request.body.action)) and md5Equals('f36aaae8c410d611c8e1059ad09986cd', request.md5Body['2570a32b634e95219aa02d322443bcad']) and lengthGreaterThan('0', request.md5Body.c75595cec687b4406b8db2b0073cf699) and match('/[^0-9\.\-]/', request.md5Body.fa597891da1abd2430fc0feb813bf33e)):
+	block(id=100, category='sqli', description='0-day', whitelist=0)
+
+if (md5Equals('a7462a4310fe32822cc2ce445865649c', request.body.action) and match('/(^|;|{|})O:+?\+*[0-9]+:(?!"(?:stdClass|phpFlickr_pager)")/i', request.body.pager)):
+	block(id=101, category='obji', description='0-day', whitelist=0)
+
+if (match('/(^|;|{|})O:+?\+*[0-9]+:(?!"(?:stdClass)")/i', request.cookies.wpmudev_appointments)):
+	block(id=102, category='obji', description='0-day', whitelist=0)
+
+if (matchCount('/(^|;|{|})O:+?\+*[0-9]+:"WP_Theme"/i', request.headers, request.cookies, request.body, request.queryString)):
+	block(id=103, category='obji', score=100, description='PHP Object Injection')
 
 if (matchCount(sqliRegex, request.body, request.queryString)):
 	failSQLi(id=3, category='sqli', score=40, description='SQL Injection')

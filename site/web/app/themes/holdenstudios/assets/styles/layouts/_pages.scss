@@ -380,6 +380,7 @@ p.wholesale {
 
 .owl-carousel {
 	position: relative;
+	z-index: -10;
 	.owl-nav {
 		position: absolute;
 		left: 0; 

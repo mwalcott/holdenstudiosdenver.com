@@ -1,5 +1,6 @@
 .nav-primary {
-	font-weight: 300;
+	font-weight: 800;
+	text-transform: uppercase;
 	border-bottom: 1px solid #DEDEDE;
 	ul {
 	  *zoom:1;
@@ -15,7 +16,7 @@
 	    &:hover {
 		    ul {
 			    max-height:1000px;
-			    -webkit-transform:perspective(400) rotate3d(0,0,0,0);			    
+			    -webkit-transform:perspective(400) rotate3d(0,0,0,0);	
 		    }
 	    }
 	    
@@ -38,8 +39,8 @@
 			padding: 10px 0;
 	    position:absolute;
 	    left:0;
-	    top:60px;
-	    z-index:1;
+	    top:100%;
+	    z-index:2000;
 	    max-height:0;
 	    overflow:hidden;
 	    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
@@ -58,6 +59,7 @@
 				border: none;
 				padding: 5px 15px;
 				color: #fff;
+				font-size: 14px;
 			}
 			
 		}
@@ -69,6 +71,7 @@
     padding: 22px 10px;
     line-height:1.2em;
     color: #000;
+    font-size: 18px;
     
     &:hover {
 	    text-decoration: none;
