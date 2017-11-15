@@ -2,6 +2,8 @@
 	font-weight: 800;
 	text-transform: uppercase;
 	border-bottom: 1px solid #DEDEDE;
+	position: relative;
+	z-index: 2000;
 	ul {
 	  *zoom:1;
 	  list-style:none;
@@ -68,7 +70,7 @@
 	
 	a {
     display:block;
-    padding: 22px 10px;
+    padding: 22px 20px;
     line-height:1.2em;
     color: #000;
     font-size: 18px;
