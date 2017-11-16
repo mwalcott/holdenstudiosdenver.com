@@ -63,3 +63,4 @@ function close_product_wrapper() {
 
 add_action( 'woocommerce_shop_loop_item_title', 'open_product_wrapper', 9 );
 add_action( 'woocommerce_after_shop_loop_item', 'close_product_wrapper',11 );
+
