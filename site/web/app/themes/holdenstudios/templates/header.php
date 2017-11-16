@@ -64,3 +64,15 @@
 <?php if( is_front_page() ) { ?>
 	<?= Holden\carouselHome(); ?>
 <?php } ?>
+
+<?php if( is_product_category() || is_product() || is_cart() || is_page(319) ) { ?>
+	<div class="free-shipping">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2><i class="fa fa-shopping-bag" aria-hidden="true"></i> All orders over $50 ship FREE</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+<?php } ?>

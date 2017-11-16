@@ -19,6 +19,8 @@ header.banner {
 	background-color: transparent;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	position: relative;
+	z-index: 2000;
 	@media (min-width: $screen-sm-min) {
 		padding-top: 0;
 		padding-bottom: 0;

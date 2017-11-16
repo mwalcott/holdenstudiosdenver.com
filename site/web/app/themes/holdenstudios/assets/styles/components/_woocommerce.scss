@@ -354,7 +354,7 @@ div.row.products {
 
 body.single-product {
 	header.banner {
-		margin-bottom: 50px;
+		//margin-bottom: 50px;
 	}
 }
 
@@ -378,5 +378,22 @@ body.vpc-is-configurable {
 .woo-social-buttons {
 	span.custom {
 		width: 18% !important;
+	}
+}
+
+.free-shipping {
+	background: $brand-secondary;
+	padding: 15px 0;
+	
+	i.fa {
+		display: inline-block;
+		margin-right: 10px;
+		color: #fff;
+	}
+	h2 {
+		margin: 0; 
+		padding: 0;
+		font-size: 24px;
+		color: #fff;
 	}
 }

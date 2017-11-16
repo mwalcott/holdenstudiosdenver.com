@@ -23,13 +23,19 @@
 	
 	<?php
 		global $product;
-	    
+
+$meta_query   = WC()->query->get_meta_query();
+$meta_query[] = array(
+    'key'   => '_featured',
+    'value' => 'yes'
+);	    
 	    $i = 1;
 	    
 	    $q = new WP_Query([
 	      'post_type'   =>  'product',
 	      'stock'       =>  1,
-	      'showposts'   =>  -1
+	      'showposts'   =>  -1,
+	      'meta_query'  =>  $meta_query
 	    ]);
 	    if ( $q->have_posts() ) :
 	        while ( $q->have_posts() ) : $q->the_post(); ?>

@@ -98,7 +98,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	</table>
 	<p></p>
-	<p>Items ship within 7-10 business days. </p>
+	<p>Wall Flags ship within 7-10 business days. </p>
 	<p>Local pickups are ready within 7-10 business days. Please call (720) 360-5090 to schedule a time for pickup.</p>
 	<address>
 		3133 W. 31st Ave<br />
