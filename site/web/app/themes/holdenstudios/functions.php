@@ -33,7 +33,26 @@ function woocommerce_support() {
 }
 
 function woocommerce_shipping_content() {
-	echo '<p class="ships-free"><strong>Ships FREE within 7-10 business days.</strong></p>';
+
+global $post;
+$terms = wp_get_post_terms( $post->ID, 'product_cat' );
+foreach ( $terms as $term ) $categories[] = $term->slug;
+
+if ( in_array( 'ornaments', $categories ) || in_array( 'coasters', $categories ) || in_array( 'magnets', $categories ) ) {
+  echo '<p class="ships-free"><strong>Ships within 7-10 business days.</strong></p>';	
+} else {
+  echo '<p class="ships-free"><strong>Ships FREE within 7-10 business days.</strong></p>';	
+}
+	
+/*
+	if ( in_array( 'ornaments', $categories ) ) { {
+		echo '<p class="ships-free"><strong>Ships within 7-10 business days.</strong></p>';	
+	} else {
+		echo '<p class="ships-free"><strong>Ships FREE within 7-10 business days.</strong></p>';	
+	}
+*/
+
+	
 }
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
@@ -63,4 +82,3 @@ function close_product_wrapper() {
 
 add_action( 'woocommerce_shop_loop_item_title', 'open_product_wrapper', 9 );
 add_action( 'woocommerce_after_shop_loop_item', 'close_product_wrapper',11 );
-

@@ -398,3 +398,13 @@ body.vpc-is-configurable {
 		color: #fff;
 	}
 }
+
+div.product_cat-ornaments,
+div.product_cat-magnets,
+div.product_cat-coasters {
+	p.price {
+		span.from {
+			display: none;
+		}
+	}
+}
