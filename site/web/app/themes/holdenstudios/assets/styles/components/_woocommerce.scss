@@ -408,3 +408,29 @@ div.product_cat-coasters {
 		}
 	}
 }
+
+#component-58921e3df77ff,
+#component-57d03de1dff94,
+#component-58c96971a162b {
+	.vpc-selected-icon {
+		width: 24px;
+		height: 24px;
+		padding-left: 0;
+		margin-left: 10px;
+	}
+	
+	.vpc-group {
+		.vpc-single-option-wrap {
+			label[data-o-title="None"] {
+				&:before {
+					background: $heading-color;
+					@include border-radius(30px);
+					content: 'None';
+					font-size: .8rem;
+					text-align: center;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
