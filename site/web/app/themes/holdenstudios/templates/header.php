@@ -74,7 +74,7 @@
 			<div class="row">
 				<div class="col-sm-12 text-center">
 					<h2>
-						<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+						<i class="fa fa-truck" aria-hidden="true"></i>
 						<?php 
 							if( has_term( 'ornaments' ) ) {
 								echo 'All ornaments orders over $50 ship FREE';
