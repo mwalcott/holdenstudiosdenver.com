@@ -23,7 +23,7 @@
 	
 	<?php
 		global $product;
-
+		//var_dump($product); 
 $meta_query   = WC()->query->get_meta_query();
 $meta_query[] = array(
     'key'   => '_featured',
@@ -40,19 +40,34 @@ $meta_query[] = array(
 	    if ( $q->have_posts() ) :
 	        while ( $q->have_posts() ) : $q->the_post(); ?>
 	        
-	        <?php if ($i%3 == 1) { 
-		        echo '<div class="row">';
-	        } ?>
+	        <?php
+		        
+		        if ($i%3 == 1) { 
+		        	echo '<div class="row">';
+	        	} 
+	        ?>
 	        
 	            <div class="featured-product-wrap col-sm-4 <?php if($i == 1) { echo 'design-your-own'; } ?>">
 			          <div class="featured-inner">
 			            <h4><?php the_title(); ?></h4>
 									<?php woocommerce_template_single_meta(); ?>
+									
+										
+										
 <!-- 			            <a href="<?php the_permalink(); ?>"> -->
 				            <?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
 <!-- 				          </a> -->
 			            <p class="price"><?php woocommerce_get_template( 'loop/price.php' ); ?></p>
-			            <?php woocommerce_template_loop_add_to_cart(); //ouptput the woocommerce loop add to cart button ?>
+			            
+			            <?php 
+										if( get_the_title() == 'Design Your Own' ) {
+											echo '<a class="btn btn-primary" href="/customize-your-own/configure/295/">Design Your Own</a>';
+										} else {
+											echo '<a class="btn btn-primary" href="'. get_permalink() .'">Select Options</a>';
+										}		          
+				          ?>
+			            
+			            <?php //woocommerce_template_loop_add_to_cart(); //ouptput the woocommerce loop add to cart button ?>
 			          </div>
 		          </div>
 	        <?php 

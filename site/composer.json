@@ -52,6 +52,7 @@
     "wpackagist-plugin/woocommerce-google-adwords-conversion-tracking-tag": "1.3.5",
     "wpackagist-plugin/wordfence": "6.3.12",
     "wpackagist-plugin/woocommerce-mailchimp": "2.1.2",
+    "wpackagist-plugin/woocommerce-advanced-free-shipping": "1.1.3",
     "wpackagist-plugin/wp-smushit": "2.7.6",
     "roots/soil": "3.7.0"    
   },

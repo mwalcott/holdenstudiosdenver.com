@@ -1,4 +1,6 @@
 <?php
+	global $post;
+	//var_dump($post);
 	$jumbotron = '';
 	if( get_field('banner') ) {  
 		$jumbotron = 'banner-top';	
@@ -65,12 +67,22 @@
 	<?= Holden\carouselHome(); ?>
 <?php } ?>
 
-<?php if( is_product_category() || is_product() || is_cart() || is_page(319) ) { ?>
+<?php //if( is_product_category( array( 'ornaments', 'magnets', 'coasters' ) ) || is_product() || is_cart() || is_page(319) ) { ?>
+<?php if( is_product_category( array( 'ornaments', 'magnets', 'coasters' ) ) || is_product() ) { ?>
 	<div class="free-shipping">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<h2><i class="fa fa-shopping-bag" aria-hidden="true"></i> All orders over $50 ship FREE</h2>
+					<h2>
+						<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+						<?php 
+							if( has_term( 'ornaments' ) ) {
+								echo 'All ornaments orders over $50 ship FREE';
+							} else {
+								echo 'All orders over $50 ship FREE';
+							}
+						?>
+					</h2>
 				</div>
 			</div>
 		</div>
