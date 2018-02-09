@@ -10,6 +10,7 @@ web/app/plugins/*
 !web/app/plugins/wp-migrate-db-pro/
 !web/app/plugins/wp-migrate-db-pro-media-files/
 !web/app/plugins/visual-product-configurator/
+!web/app/plugins/visual-product-configurator-custom-textfield-add-on/
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*

@@ -1,0 +1,7 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.omodal-body  table thead td:first-child,.omodal-body  table tbody td:first-child{
+    display: none;
+}

@@ -1,0 +1,98 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.vpc-single-option-wrap.textfield {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.vpc-single-option-wrap.textfield label {
+    border: 0 none;
+    font-size: 13px;
+}
+
+.vpc-textfield-color {
+    width: 22%;
+    float: left;
+    margin: 7px 0 10px 3%;
+    height: 20px;
+}
+
+span.vpc-textfield-label {
+    font-size: 10px;
+    float: none;
+    clear: both;
+}
+
+.vpc-textfield-font {
+    display: inline-block;
+    width: 72%;
+    float: left;
+    margin: 7px 0 10px 3%;
+}
+
+select#signature-font-selector {
+    border: 0;
+    color: #333;
+    height: 20px;
+    margin: 0 0 10px;
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.vpc-single-option-wrap.textfield input[type="text"] {
+    vertical-align: middle;
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+    color: #000000;
+}
+
+[id$="color-selector"], .wpc-custom-colors-container span {
+    border-radius: 25px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0 10px 12px 0;
+    vertical-align: middle;
+}
+#text_panel{
+    z-index: 5;
+}
+
+#upload_panel{
+    z-index: 4;
+}
+
+#upload_panel img {
+    position: relative;
+}
+
+#text_panel div {
+    display: inline-block;
+    position: absolute;
+    transform-origin: 0% 0%;
+        z-index: 5;
+}
+
+/*#text_panel .text_field.jtextfill span {
+    font-size: 10px;
+}*/
+
+.vpc-global-preview {
+    position: relative;
+}
+
+.text-color {
+    border-color: #08AED6;
+}
+
+.vpc-options select {
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: 14px;
+    color: #000000;
+}

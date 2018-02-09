@@ -1,0 +1,164 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vpc\n"
+"POT-Creation-Date: 2017-11-27 13:39+0100\n"
+"PO-Revision-Date: 2016-11-07 11:31+0100\n"
+"Last-Translator: ORION TEAM <support@orionorigin.com>\n"
+"Language-Team: ORION <support@orionorigin.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-vpc-cta-admin.php:106
+msgid "Textfield"
+msgstr ""
+
+#: ../admin/class-vpc-cta-admin.php:112 ../includes/vpc-add-colors.php:150
+#: ../includes/vpc-add-fonts.php:150
+msgid "Add Fonts"
+msgstr ""
+
+#: ../admin/class-vpc-cta-admin.php:113
+msgid "Add Colors"
+msgstr ""
+
+#: ../admin/class-vpc-cta-admin.php:129
+msgid "Text Top position (%)"
+msgstr ""
+
+#: ../admin/class-vpc-cta-admin.php:136
+msgid "Text Left position (%)"
+msgstr ""
+
+#: ../admin/class-vpc-cta-admin.php:143
+msgid "Text rotation(&deg;)"
+msgstr ""
+
+#: ../admin/class-vpc-cta-admin.php:150
+msgid "Font Size"
+msgstr ""
+
+#: ../admin/class-vpc-cta-admin.php:157
+msgid "Max characters"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:104
+msgid "Edit Color"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:111 ../includes/vpc-add-colors.php:195
+msgid "Color Name"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:115
+msgid "Name of color (shown on the front-end)."
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:129
+msgid "Color Code"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:133 ../includes/vpc-add-colors.php:200
+msgid "Color code"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:138 ../includes/vpc-add-fonts.php:138
+msgid "Update"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:158 ../includes/vpc-add-fonts.php:111
+#: ../includes/vpc-add-fonts.php:158 ../includes/vpc-add-fonts.php:196
+msgid "Name"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:159
+msgid "Code"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:175 ../includes/vpc-add-fonts.php:175
+msgid "Edit"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:175 ../includes/vpc-add-fonts.php:175
+msgid "Delete"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:182
+msgid "No colors currently exist."
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:192
+msgid "Add New Color"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:197
+msgid "Name for the color (shown on the front-end)."
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:202
+msgid "Code of color."
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:204
+msgid "Add Color"
+msgstr ""
+
+#: ../includes/vpc-add-colors.php:213
+msgid "Are you sure you want to delete this color?"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:104
+msgid "Edit Font"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:115
+msgid "Name for the attribute (shown on the front-end)."
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:129 ../includes/vpc-add-fonts.php:201
+msgid "URL"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:133 ../includes/vpc-add-fonts.php:203
+msgid ""
+"Google font URL. Leave this field empty if the font is already loaded by the "
+"theme."
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:159
+msgid "Url"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:182
+msgid "No fonts currently exist."
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:192
+msgid "Add New Font"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:198
+msgid "Name for the font (shown on the front-end)."
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:205
+msgid "Add Font"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:214
+msgid "Are you sure you want to delete this font?"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:251
+msgid "Pick a google font"
+msgstr ""
+
+#: ../includes/vpc-add-fonts.php:262
+msgid "Choose a google font"
+msgstr ""
