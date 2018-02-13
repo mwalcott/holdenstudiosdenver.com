@@ -68,7 +68,16 @@
 <?php } ?>
 
 <?php //if( is_product_category( array( 'ornaments', 'magnets', 'coasters' ) ) || is_product() || is_cart() || is_page(319) ) { ?>
-<?php if( is_product_category( array( 'ornaments', 'magnets', 'coasters' ) ) || is_product() ) { ?>
+<?php 
+/*
+	if( $product->id == 1307 && is_product() ) {
+		
+	}
+*/
+
+	if( is_product_category( array( 'ornaments', 'magnets', 'coasters' ) ) || is_product() ) { 
+	
+?>
 	<div class="free-shipping">
 		<div class="container">
 			<div class="row">
@@ -87,4 +96,4 @@
 			</div>
 		</div>
 	</div>
-<?php } ?>
+<?php } else { } ?>

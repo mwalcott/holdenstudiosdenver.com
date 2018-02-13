@@ -69,7 +69,7 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 8 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 6 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 30 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 5 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_shipping_content', 30 );
 
 function open_product_wrapper() {
