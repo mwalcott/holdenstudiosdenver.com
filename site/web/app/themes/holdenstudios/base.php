@@ -2,7 +2,7 @@
 
 use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
-$url = 'http:/' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $config = '';
 if (strpos($url,'2187') !== false) {
 	$config = 'config-2187';
@@ -15,7 +15,7 @@ if (strpos($url,'2187') !== false) {
   <body <?php body_class($config); ?>>
     <!--[if IE]>
       <div class="alert alert-warning">
-        <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http:/browsehappy.com/">upgrade your browser</a> to improve your experience.', 'sage'); ?>
+        <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'sage'); ?>
       </div>
     <![endif]-->
 
@@ -38,43 +38,43 @@ if (strpos($url,'2187') !== false) {
 		        <div class="owl-carousel owl-wedding">
 			        
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-1.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-1.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-2.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-2.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-3.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-3.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-4.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-4.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-5.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-5.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-6.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-6.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-7.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-7.jpeg"/>
 			        </div>
 			        
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-8.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-8.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-9.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-9.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="https:/holdenstudiosdenver.com/app/uploads/2018/02/wedding-10.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-10.jpeg"/>
 			        </div>
 			        
 		        </div>
