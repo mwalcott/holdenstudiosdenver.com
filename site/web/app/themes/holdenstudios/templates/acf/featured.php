@@ -24,11 +24,11 @@
 	<?php
 		global $product;
 		//var_dump($product); 
-$meta_query   = WC()->query->get_meta_query();
-$meta_query[] = array(
-    'key'   => '_featured',
-    'value' => 'yes'
-);	    
+			$meta_query   = WC()->query->get_meta_query();
+			$meta_query[] = array(
+			    'key'   => '_featured',
+			    'value' => 'yes'
+			);	    
 	    $i = 1;
 	    
 	    $q = new WP_Query([
@@ -47,7 +47,7 @@ $meta_query[] = array(
 	        	} 
 	        ?>
 	        
-	            <div class="featured-product-wrap col-sm-4 <?php if($i == 1) { echo 'design-your-own'; } ?>">
+	            <div class="featured-product-wrap col-sm-4 <?php if($i == 1 || $i == 2) { echo 'design-your-own'; } ?>">
 			          <div class="featured-inner">
 			            <h4><?php the_title(); ?></h4>
 									<?php woocommerce_template_single_meta(); ?>
@@ -62,6 +62,8 @@ $meta_query[] = array(
 			            <?php 
 										if( get_the_title() == 'Design Your Own' ) {
 											echo '<a class="btn btn-primary" href="/customize-your-own/configure/295/">Design Your Own</a>';
+										} elseif( get_the_title() == 'Custom Colorado Wedding Flag' ) {
+											echo '<a class="btn btn-primary" href="/customize-your-own/configure/2187/">Design Your Own</a>';
 										} else {
 											echo '<a class="btn btn-primary" href="'. get_permalink() .'">Select Options</a>';
 										}		          

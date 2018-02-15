@@ -2,13 +2,17 @@
 
 use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
-
+$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$config = '';
+if (strpos($url,'2187') !== false) {
+	$config = 'config-2187';
+}
 ?>
 
 <!doctype html>
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
-  <body <?php body_class(); ?>>
+  <body <?php body_class($config); ?>>
     <!--[if IE]>
       <div class="alert alert-warning">
         <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'sage'); ?>
@@ -28,6 +32,72 @@ use Roots\Sage\Wrapper;
 	      do_action('get_header');
 	      get_template_part('templates/header');
 	    ?>
+		        <?php 
+			        if (strpos($url,'2187') !== false) {
+		        ?>
+		        <div class="owl-carousel owl-wedding">
+			        
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-9-1-640x430.jpeg"/>
+			        </div>
+			        
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-8-1-640x430.jpeg"/>
+			        </div>
+			        
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-6-1-640x430.jpeg"/>
+			        </div>
+			        
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-5-1-640x430.jpeg"/>
+			        </div>
+			        
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-3-1-640x430.jpeg"/>
+			        </div>
+			        
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-12-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-9-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-8-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-8-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-7-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-5-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-4-640x430.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-3-640x430.jpeg"/>
+			        </div>
+			        
+		        </div>
+		        <?php 
+			        }
+		        ?>
+
 	    <div class="wrap container" role="document">
 	      <div class="content row">
 	        <main class="main">

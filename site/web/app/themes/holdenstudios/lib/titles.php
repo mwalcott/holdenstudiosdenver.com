@@ -6,6 +6,13 @@ namespace Roots\Sage\Titles;
  * Page titles
  */
 function title() {
+
+	$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+	if (strpos($url,'2187') !== false) {
+		
+	}
+	
+	
   if (is_home()) {
     if (get_option('page_for_posts', true)) {
       return get_the_title(get_option('page_for_posts', true));
@@ -19,6 +26,10 @@ function title() {
   } elseif (is_404()) {
     return __('Not Found', 'sage');
   } else {
-    return get_the_title();
+	  if (strpos($url,'2187') !== false) {
+			return __('Custom Colorado Wedding Flag', 'sage');
+		} else {
+			return get_the_title();	
+		}
   }
 }

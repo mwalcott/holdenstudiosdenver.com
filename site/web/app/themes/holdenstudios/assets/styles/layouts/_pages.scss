@@ -427,11 +427,13 @@ p.wholesale {
 			}
 			&:hover {
 				@media (min-width: $screen-sm-min) { 
+/*
 					-moz-transform: 		scale(1.05);
 					-webkit-transform: 	scale(1.05);
 					-o-transform: 			scale(1.05);
 					-ms-transform: 			scale(1.05);
 					transform: 					scale(1.05);				
+*/
 				}
 				
 				&:after {
@@ -474,6 +476,14 @@ p.wholesale {
 			}	
 		}
 	}
+	
+	&.owl-wedding {
+		.owl-item {
+			> div {
+				min-height: 50px;
+			}
+		}
+	}
 }
 
 
@@ -481,5 +491,22 @@ body.postid-1307 {
 	div.product .product_title {
 		font-family: $script;	
 		text-transform: none;
+	}
+}
+
+body.config-2187 {
+	main.main {
+		.page-header {
+			h1 {
+				font-family: $script;
+				text-transform: none;
+			}
+		}
+		p {
+			display: none;
+			&.wedding-text {
+				display: block !important;
+			}
+		}
 	}
 }

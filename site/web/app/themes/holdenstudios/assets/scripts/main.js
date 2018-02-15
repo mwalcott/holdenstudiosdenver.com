@@ -32,7 +32,7 @@
 	        ]
         });
         
-				$(".owl-carousel").owlCarousel({
+				$(".owl-home").owlCarousel({
 					loop:true,
 					margin:2,
 					nav:true,
@@ -51,6 +51,29 @@
 				    },
 				    1000:{
 			        items:2
+				    }
+					}					
+				});
+
+				$(".owl-wedding").owlCarousel({
+					loop:true,
+					margin:2,
+					nav:true,
+					dot:false,
+					autoplay:true,
+					navText: [
+					   "<i class='fa fa-angle-left'></i>",
+					   "<i class='fa fa-angle-right'></i>"
+					],
+					responsive:{
+				    0:{
+			        items:1
+				    },
+				    600:{
+			        items:2
+				    },
+				    1000:{
+			        items:6
 				    }
 					}					
 				});

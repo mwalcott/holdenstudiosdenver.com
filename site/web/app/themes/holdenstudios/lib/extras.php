@@ -70,7 +70,7 @@ function carouselHome() { ?>
 	<?php if( is_front_page() ) { ?>
 		
 	
-		<div class="owl-carousel">
+		<div class="owl-carousel owl-home">
 
 			<?php
 			

@@ -1,3 +1,6 @@
+<?php
+	$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+?>
 <?php if(is_page(100)) { ?>
 	<div class="row">
 		<div class="col-sm-12">
@@ -9,7 +12,14 @@
 	<?php the_content(); ?>
 
 <?php } else { ?>
-	<?php the_content(); ?>
+	<?php 
+	if (strpos($url,'2187') !== false) {
+		echo '<p class="wedding-text" style="text-align: center;"><strong>Wedding season is upon us!!</strong><br /><br />We love weddings and marriage! Let Holden Studios help with a stunning hand burned guestbook for your special day. Have your guests sign the back for memories that last a lifetime.</p>';
+		the_content();
+	} else {
+		the_content();
+	}
+ ?>
 <?php } ?>
 
 
