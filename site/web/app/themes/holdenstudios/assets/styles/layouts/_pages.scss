@@ -510,3 +510,19 @@ body.config-2187 {
 		}
 	}
 }
+
+#component-58c96971a162b {
+	.vpc-component-header {
+		span[style="display: inline-block;"] {
+			span:first-child {
+				&:after {
+					content: 'Type names and date in the notes section at checkout';
+					display: block;
+					font-size: .7em;
+					font-weight: 300;
+					margin-bottom: 5px;
+				}
+			}
+		}
+	}	
+}
