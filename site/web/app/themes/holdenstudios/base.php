@@ -38,59 +38,39 @@ if (strpos($url,'2187') !== false) {
 		        <div class="owl-carousel owl-wedding">
 			        
 			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-9-1-640x430.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-1.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-2.jpg"/>
+			        </div>
+
+			        <div>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-3.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-4.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-5.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-6.jpeg"/>
+			        </div>
+
+			        <div>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-7.jpg"/>
 			        </div>
 			        
 			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-8-1-640x430.jpeg"/>
-			        </div>
-			        
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-6-1-640x430.jpeg"/>
-			        </div>
-			        
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-5-1-640x430.jpeg"/>
-			        </div>
-			        
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-3-1-640x430.jpeg"/>
-			        </div>
-			        
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-640x430.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-8.jpeg"/>
 			        </div>
 
 			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-12-640x430.jpeg"/>
-			        </div>
-
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-9-640x430.jpeg"/>
-			        </div>
-
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-8-640x430.jpeg"/>
-			        </div>
-
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-8-640x430.jpeg"/>
-			        </div>
-
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-7-640x430.jpeg"/>
-			        </div>
-
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-5-640x430.jpeg"/>
-			        </div>
-
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-4-640x430.jpeg"/>
-			        </div>
-
-			        <div>
-				        <img src="/app/uploads/2017/09/FullSizeRender.jpg-3-640x430.jpeg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads//2018/02/wedding-9.jpeg"/>
 			        </div>
 			        
 		        </div>
