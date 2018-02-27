@@ -127,6 +127,6 @@ function replace_default_button(){
     //check if current category slug is in the selected category list
     if( in_array($current_cat_slug, $selected_cats) ){
         //replace default button code with custom code
-        return '<a class="button product_type_simple add_to_cart_button ajax_add_to_cart" href="'. get_permalink() .'">Learn More</a>';
+        return '<a class="button product_type_simple add_to_cart_button ajax_add_to_cart" href="'. get_permalink() .'">Select</a>';
     }
 }
