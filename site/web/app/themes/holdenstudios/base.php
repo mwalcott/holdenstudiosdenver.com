@@ -76,6 +76,10 @@ if (strpos($url,'2187') !== false) {
 			        <div>
 				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/wedding-10.jpeg"/>
 			        </div>
+
+			        <div>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/IMG_6961.jpg"/>
+			        </div>
 			        
 		        </div>
 		        <?php 
