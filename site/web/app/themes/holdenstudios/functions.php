@@ -114,3 +114,19 @@ function ST4_columns_content($column_name, $post_ID) {
 
 add_filter('manage_posts_columns', 'ST4_columns_head');
 add_action('manage_posts_custom_column', 'ST4_columns_content', 10, 2);
+
+
+add_filter( 'woocommerce_loop_add_to_cart_link', 'replace_default_button' );
+function replace_default_button(){
+    //list category slugs where button needs to be changed
+    $selected_cats = array('coasters');
+    //get current category object
+    $current_cat = get_queried_object();
+    //get category slug from category object
+    $current_cat_slug = $current_cat->slug;
+    //check if current category slug is in the selected category list
+    if( in_array($current_cat_slug, $selected_cats) ){
+        //replace default button code with custom code
+        return '<a class="button product_type_simple add_to_cart_button ajax_add_to_cart" href="'. get_permalink() .'">Learn More</a>';
+    }
+}
