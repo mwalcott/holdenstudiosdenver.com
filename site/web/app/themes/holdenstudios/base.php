@@ -78,7 +78,7 @@ if (strpos($url,'2187') !== false) {
 			        </div>
 
 			        <div>
-				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/IMG_6961.jpg"/>
+				        <img src="https://holdenstudiosdenver.com/app/uploads/2018/02/IMG_6961.jg"/>
 			        </div>
 			        
 		        </div>
