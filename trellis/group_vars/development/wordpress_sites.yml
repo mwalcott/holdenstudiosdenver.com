@@ -5,15 +5,15 @@
 wordpress_sites:
   holdenstudiosdenver.com:
     site_hosts:
-      - canonical: holdenstudiosdenver.dev
+      - canonical: holdenstudiosdenver.test
         redirects:
-          - www.holdenstudiosdenver.dev
+          - www.holdenstudiosdenver.test
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: admin@example.dev
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: self-signed
     cache:
       enabled: false
