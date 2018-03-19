@@ -27,7 +27,7 @@ function title() {
     return __('Not Found', 'sage');
   } else {
 	  if (strpos($url,'2187') !== false) {
-			return __('Custom Colorado Wedding Flag', 'sage');
+			return __('Colorado Wedding Guestbook', 'sage');
 		} else {
 			return get_the_title();	
 		}
