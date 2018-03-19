@@ -526,3 +526,15 @@ body.config-2187 {
 		}
 	}	
 }
+
+#vpc-components {
+	position: relative;
+	&:before {
+		content: 'Choose an option';
+		font-size: 1.5rem;
+		position: absolute;
+		top: -3rem;
+		color: $brand-primary;
+		font-weight: bold;
+	}
+}
