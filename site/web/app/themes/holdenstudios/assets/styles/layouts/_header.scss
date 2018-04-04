@@ -167,7 +167,7 @@ body.single-product  {
 		margin-bottom: 1rem;
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 80%;
+		max-width: 75%;
 	}
 	span {
 		font-size: 20px;
@@ -175,7 +175,7 @@ body.single-product  {
 	@media (min-width: $screen-sm-min) {
 		padding: 0;
 		img {
-			max-width: 40%;
+			max-width: 35%;
 		}
 	}
 }
