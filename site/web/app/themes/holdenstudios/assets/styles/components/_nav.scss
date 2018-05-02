@@ -17,8 +17,7 @@
 	    
 	    &:hover {
 		    ul {
-			    max-height:1000px;
-			    -webkit-transform:perspective(400) rotate3d(0,0,0,0);	
+					opacity: 1;
 		    }
 	    }
 	    
@@ -40,21 +39,37 @@
 			background: $brand-secondary;
 			padding: 10px 0;
 	    position:absolute;
-	    left:0;
+	    left:50%;
+	    margin-left: -125px;
 	    top:100%;
 	    z-index:2000;
-	    max-height:0;
-	    overflow:hidden;
-	    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
-	    -webkit-transform-origin:50% 0;
-	    -webkit-transition:350ms;
-	    -moz-transition:350ms;
-	    -o-transition:350ms;
-	    transition:350ms;
-
+			opacity: 0;
+			width: 250px;
 			
 			li {
 				min-width: 220px;
+				
+				&.menu-design-your-own {
+					a {
+						&:before {
+							content: 'Hot!';
+							display: inline-block;
+							font-weight: 300;
+							background: #ba2000;
+							font-size: .9rem;
+							-webkit-border-radius: 3px;
+							-moz-border-radius: 3px;
+							border-radius: 3px;
+							text-transform: none;
+							line-height: 1rem;
+							padding: .2rem .4rem;
+							margin-right: .5rem;
+							position: relative;
+							top: -6px;
+						}
+					}
+				}
+				
 			}
 			
 			a {
