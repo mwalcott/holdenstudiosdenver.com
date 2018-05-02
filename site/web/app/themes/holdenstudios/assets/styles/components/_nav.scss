@@ -18,6 +18,7 @@
 	    &:hover {
 		    ul {
 					opacity: 1;
+					visibility: visible;
 		    }
 	    }
 	    
@@ -45,6 +46,7 @@
 	    z-index:2000;
 			opacity: 0;
 			width: 250px;
+			visibility: hidden;
 			
 			li {
 				min-width: 220px;

@@ -78,6 +78,7 @@
 	if( is_product_category( array( 'ornaments', 'magnets', 'coasters' ) ) || is_product() ) { 
 	
 ?>
+<!--
 	<div class="free-shipping">
 		<div class="container">
 			<div class="row">
@@ -96,4 +97,5 @@
 			</div>
 		</div>
 	</div>
+-->
 <?php } else { } ?>
