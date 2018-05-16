@@ -63,7 +63,13 @@ use Roots\Sage\Wrapper;
 						if ( $the_query->have_posts() ) {
 							while ( $the_query->have_posts() ) {
 								$the_query->the_post(); $i++;
-							
+
+								echo '<div class="col-sm-4">';
+									the_post_thumbnail( 'portfolio', array( 'class' => 'img-responsive') );
+								echo '</div>';
+
+								
+/*
 								if( $i == 1 ) {
 									echo '<div class="col-sm-4">';
 										the_post_thumbnail( 'full', array( 'class' => 'img-responsive') );
@@ -85,6 +91,7 @@ use Roots\Sage\Wrapper;
 										the_post_thumbnail( 'portfolio', array( 'class' => 'img-responsive') );
 									echo '</div>';
 								}
+*/
 								
 								if( $i == 5 ) {
 									$i = 0;
