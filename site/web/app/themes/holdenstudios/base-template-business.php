@@ -28,39 +28,104 @@ use Roots\Sage\Wrapper;
 	      do_action('get_header');
 	      get_template_part('templates/header');
 	    ?>
+<!--
 	    <h1 style="text-align: center;">Colorado Customs</h1>
 	    <p style="text-align: center;">Call <a href="tel:720-360-5090">720-360-5090</a> for a quick quote.</p>
-			<div id="business" class="container-fluid clearfix">
+-->			
+			<div id="business" class="container clearfix">
 				<?php 
+
+				$args = [
+				  'taxonomy'     	=> 'custom_categories',
+				  'number'        => 0,
+				  'parent'        => 0,
+				  'hide_empty'    => true
+				];
+				$terms = get_terms( $args );
+				
+				foreach ( $terms as $term ) {
+					echo '<h3>'. $term->name .'</h3>';
+
+					echo '<div class="row custom-work">';
+						$args = array(
+							'post_type' => 'custom_work',
+							'posts_per_page' => -1,
+							'tax_query' => array(
+								array(
+									'taxonomy' => 'custom_categories',
+									'field'    => 'slug',
+									'terms'    => $term->slug,
+								),
+							),
+						);
+						$the_query = new WP_Query( $args );
+						$i = 0;
+						if ( $the_query->have_posts() ) {
+							while ( $the_query->have_posts() ) {
+								$the_query->the_post(); $i++;
+							
+								if( $i == 1 ) {
+									echo '<div class="col-sm-4">';
+										the_post_thumbnail( 'full', array( 'class' => 'img-responsive') );
+									echo '</div>';
+								} elseif( $i == 2 ) {
+									echo '<div class="col-sm-8">';
+										echo '<div class="row">';
+											echo '<div class="col-sm-6">';
+												the_post_thumbnail( 'portfolio', array( 'class' => 'img-responsive') );
+											echo '</div>';
+								} elseif( $i == 5 ) {
+											echo '<div class="col-sm-6">';
+												the_post_thumbnail( 'portfolio', array( 'class' => 'img-responsive') );
+											echo '</div>';
+										echo '</div>';
+									echo '</div>';
+								} else {
+									echo '<div class="col-sm-6">';
+										the_post_thumbnail( 'portfolio', array( 'class' => 'img-responsive') );
+									echo '</div>';
+								}
+								
+								if( $i == 5 ) {
+									$i = 0;
+								}
+							
+							
+							?>
+							
+							<?php }
+							wp_reset_postdata();
+						} else {
+		
+						}
+					
+					echo '</div>';
+
+				}
+
+
+/*
 				$args = array(
 					'post_type' => 'custom_work',
 					'posts_per_page' => -1
 				);
-				// The Query
 				$the_query = new WP_Query( $args );
 				
-				// The Loop
 				if ( $the_query->have_posts() ) {
 					while ( $the_query->have_posts() ) {
 						$the_query->the_post(); 
 					?>
-						<?php
-							$filter = '';
-							$term_list = wp_get_post_terms($post->ID, 'custom_categories', array("fields" => "all"));
-							foreach($term_list as $term_single) {
-								$filter = $term_single->slug; //do something here
-							}
-						?>
-						<div class="mix <?php echo $filter; ?>">
+					
+						<div class="">
 							<?php the_post_thumbnail( 'portfolio', array( 'class' => 'img-responsive') ); ?>
 						</div>
 						
 					<?php }
-					/* Restore original Post Data */
 					wp_reset_postdata();
 				} else {
-					// no posts found
+
 				}
+*/
 					
 				?>
 			</div>

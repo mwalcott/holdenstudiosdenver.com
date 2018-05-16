@@ -563,3 +563,28 @@ body.config-2187 {
 		font-weight: bold;
 	}
 }
+
+
+.custom-work {
+	margin-left: -5px;
+	margin-right: -5px;
+	
+	.row {
+		margin-left: -5px;
+		margin-right: -5px;		
+	}
+	
+	.col-sm-4,
+	.col-sm-6,
+	.col-sm-8 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.col-sm-6 {
+		&:nth-child(1),
+		&:nth-child(2) {
+			margin-bottom: 10px;
+		}
+	}
+}

@@ -53,10 +53,6 @@ function jumbotron() { ?>
 
 	<?php if( get_field('banner') ) { ?>
 		<img src="<?php the_field('banner_background_image_mobile'); ?>" class="img-responsive"/>
-	
-	
-
-
 	<?php } ?>
 
 
