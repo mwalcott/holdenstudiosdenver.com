@@ -574,10 +574,54 @@ body.config-2187 {
 		margin-right: -5px;		
 	}
 
-	.col-xs-6 {
-		padding-left: 5px;
-		padding-right: 5px;
+	.custom-work-item {
+		padding-left: 10px;
+		padding-right: 10px;
 		margin-bottom: 10px;
+		
+		@media (min-width: $screen-sm-min) { 
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		
+		.custom-work-info {
+			position: absolute;
+			bottom: 5px;
+			left: 10px;
+			z-index: 10;
+			color: #fff;
+			padding: 1rem;
+			@include background-black-transparent();
+			h5 {
+				margin: 0;
+				color: #fff;
+				font-size: .9rem;
+			}
+			p {
+				margin-bottom: .3rem;
+				font-size: .8rem;
+			}
+			a {
+				font-size: .8rem;
+				display: block;
+			}
+			
+			@media (min-width: $screen-sm-min) { 
+				padding: 1.5rem 2rem;
+				h5 {
+					font-size: 1.2rem;
+				}
+				p {
+					font-size: 1rem;
+					margin-top: .5rem;
+				}
+				a {
+					font-size: 1rem;
+				}
+				
+			}
+		}
+		
 	}
 	
 }

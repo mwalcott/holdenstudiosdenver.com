@@ -64,8 +64,20 @@ use Roots\Sage\Wrapper;
 							while ( $the_query->have_posts() ) {
 								$the_query->the_post(); $i++;
 
-								echo '<div class="col-xs-6">';
+								echo '<div class="col-xs-6 custom-work-item">';
 									the_post_thumbnail( 'square', array( 'class' => 'img-responsive') );
+									echo '<div class="custom-work-info">';
+										the_title('<h5>', '</h5>');
+										if( get_field('sub_heading') ) {
+											echo '<p>'. get_field('sub_heading') .'</p>';
+										}
+										
+										if( get_field('button_url') && get_field('button_text') ) {
+											echo '<a href="'. get_field('button_url') .'">'. get_field('button_text') .'</a>';
+										}
+										
+										
+									echo '</div>';
 								echo '</div>';
 
 								
