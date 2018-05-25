@@ -35,6 +35,7 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 namespace Holden;
 
 add_image_size( 'cta-size', 500, 648, true );
+add_image_size( 'square', 800, 800, true );
 add_image_size( 'portfolio', 640, 430, true );
 
 /**

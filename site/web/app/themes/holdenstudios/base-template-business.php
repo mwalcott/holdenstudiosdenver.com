@@ -64,8 +64,8 @@ use Roots\Sage\Wrapper;
 							while ( $the_query->have_posts() ) {
 								$the_query->the_post(); $i++;
 
-								echo '<div class="col-sm-4">';
-									the_post_thumbnail( 'portfolio', array( 'class' => 'img-responsive') );
+								echo '<div class="col-sm-6">';
+									the_post_thumbnail( 'square', array( 'class' => 'img-responsive') );
 								echo '</div>';
 
 								
