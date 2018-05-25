@@ -44,7 +44,7 @@ use Roots\Sage\Wrapper;
 				$terms = get_terms( $args );
 				
 				foreach ( $terms as $term ) {
-					echo '<h3>'. $term->name .'</h3>';
+					//echo '<h3>'. $term->name .'</h3>';
 
 					echo '<div class="row custom-work">';
 						$args = array(
@@ -64,7 +64,7 @@ use Roots\Sage\Wrapper;
 							while ( $the_query->have_posts() ) {
 								$the_query->the_post(); $i++;
 
-								echo '<div class="col-sm-6">';
+								echo '<div class="col-xs-6">';
 									the_post_thumbnail( 'square', array( 'class' => 'img-responsive') );
 								echo '</div>';
 
