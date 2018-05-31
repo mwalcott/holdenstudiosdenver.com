@@ -47,7 +47,7 @@
 	        	} 
 	        ?>
 	        
-	            <div class="featured-product-wrap col-sm-4 <?php if($i == 1 || $i == 2) { echo 'design-your-own'; } ?>">
+	            <div class="featured-product-wrap col-sm-4 <?php if( $i == 1 ) { echo 'design-your-own'; } ?>">
 			          <div class="featured-inner">
 			            <h4><?php the_title(); ?></h4>
 									<?php woocommerce_template_single_meta(); ?>

@@ -153,7 +153,31 @@ div.page-header {
 			}
 			
 		}
+		&.design-your-own {
+			h4 {
+				&:before {
+					content: 'Hot!';
+					display: inline-block;
+					font-weight: 300;
+					background: #ba2000;
+					font-size: .9rem;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					border-radius: 3px;
+					text-transform: none;
+					line-height: 1rem;
+					padding: .2rem .4rem;
+					margin-right: .5rem;
+					position: relative;
+					top: -6px;
+					color: #fff;
+				}
+			}
+		}
+
 	}
+	
+	
 }
 
 // ACF Call To Action
