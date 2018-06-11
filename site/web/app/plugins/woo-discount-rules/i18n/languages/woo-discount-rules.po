@@ -1,0 +1,987 @@
+#, # Copyright (C) 2018 Flycart
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Woo Discount Rules\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Flycart\n"
+"MIME-Version: 1.0\n"
+"Language: en\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:465
+msgid " Product(s) "
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:621
+msgid "100% percent"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:118
+#: woo-discount-rules/view/pricing-rules.php:147
+#: woo-discount-rules/view/view-cart-rules.php:443
+msgid "Action"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:131
+msgid "Add Condition"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:484
+msgid "Add New Range"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:42
+#: woo-discount-rules/view/pricing-rules.php:73
+msgid "Add New Rule"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:517
+msgid "Adjustment Type"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:240
+#: woo-discount-rules/view/view-pricing-rules.php:458
+msgid "All"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:149
+msgid "All products"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:315
+#: woo-discount-rules/view/view-cart-rules.php:317
+#: woo-discount-rules/view/view-pricing-rules.php:560
+msgid "All selected"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:436
+msgid "Any"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:562
+msgid "Any one cheapest from all products"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:561
+msgid "Any one cheapest from selected"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:143
+msgid "Apply To"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:243
+#: woo-discount-rules/view/settings.php:245
+msgid "Apply all matched rules"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:252
+#: woo-discount-rules/view/settings.php:254
+msgid "Apply biggest discount"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:100
+#: woo-discount-rules/view/settings.php:237
+msgid "Apply first matched rule"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:558
+msgid "Apply for"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:299
+msgid "Apply if all coupon applied"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:298
+msgid "Apply if any one coupon applied"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:305
+#: woo-discount-rules/view/view-cart-rules.php:307
+msgid "Atleast any one"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:293
+#: woo-discount-rules/view/view-cart-rules.php:295
+msgid "Based on Purchase history"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:269
+#: woo-discount-rules/view/view-cart-rules.php:271
+msgid "Billing city"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:434
+msgid "Buy"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:128
+msgid "Cart Conditions"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:166
+msgid "Cart Item Count"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:22
+msgid "Cart Rules"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:156
+msgid "Cart Subtotal"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:211
+msgid "Cart rules settings"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:201
+msgid "Categories In Cart"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:206
+msgid "Categories in cart"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:196
+msgid "Check this box to apply child category(ies)"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:193
+msgid "Check this box to count quantities cumulatively across category(ies)"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:181
+msgid "Check this box to count quantities cumulatively across products"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:51
+#: woo-discount-rules/view/view-pricing-rules.php:35
+msgid "Close"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:438
+msgid "Combine"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:289
+msgid "Coupon"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:218
+msgid "Coupon Name to be displayed :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:299
+msgid "Coupon applied"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:263
+msgid "Customer Billing Details"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:209
+msgid "Customer Details (must be logged in)"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:241
+msgid "Customer Email"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:275
+msgid "Customer Shipping Details"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:235
+msgid "Customers"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:101
+#: woo-discount-rules/view/pricing-rules.php:130
+msgid "Delete"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:101
+#: woo-discount-rules/view/view-pricing-rules.php:103
+msgid "Dependant product based discount"
+msgstr ""
+
+#. Text in function
+#: woo-discount-rules/view/cart-rules.php:69
+#: woo-discount-rules/view/pricing-rules.php:98
+msgid "Disable"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:263
+msgid "Disable the rules while have coupon(Third party) in cart"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:285
+#: woo-discount-rules/view/settings.php:292
+msgid "Disabled"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/template/discount-table.php:16
+#: woo-discount-rules/view/view-cart-rules.php:460
+#: woo-discount-rules/view/view-pricing-rules.php:481
+msgid "Discount"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:138
+msgid "Discount Conditions"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:224
+msgid "Discount Coupon Name"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:165
+msgid "Discount Table :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:476
+msgid "Discount Type :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:297
+#: woo-discount-rules/view/view-pricing-rules.php:335
+msgid "Do not use"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:27
+#: woo-discount-rules/view/pricing-rules.php:59
+msgid "Documentation"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:326
+msgid "Draft"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:582
+msgid "Dynamic item count"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:437
+msgid "Each"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:95
+#: woo-discount-rules/view/pricing-rules.php:124
+msgid "Edit"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:56
+msgid "Edit Cart Rule"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:40
+msgid "Edit Price Rule"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:257
+#: woo-discount-rules/view/view-cart-rules.php:259
+msgid "Email with Domain (Eg: gmail.com)"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:247
+#: woo-discount-rules/view/view-cart-rules.php:249
+msgid "Email with TLD (Eg: edu)"
+msgstr ""
+
+#. Text in function
+#: woo-discount-rules/view/cart-rules.php:69
+#: woo-discount-rules/view/pricing-rules.php:98
+msgid "Enable"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:63
+msgid "Enable Bootstrap"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:275
+msgid "Enable free shipping option"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:350
+msgid "Enter the amount"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:350
+msgid "Enter the coupon code separated by comma(,)"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:443
+msgid "Equal"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:336
+msgid "Exclude Draft products in product select box."
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:215
+msgid "Exclude products"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:116
+#: woo-discount-rules/view/pricing-rules.php:145
+msgid "Expired On"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:459
+msgid "First quantity(s)"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:652
+msgid "Fixed"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:581
+msgid "Fixed item count"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:75
+msgid "Force refresh the cart widget while add and remove item to cart"
+msgstr ""
+
+#. Text in function
+#: woo-discount-rules/view/settings.php:316
+msgid "Free Shipping"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:319
+msgid "Free Shipping title"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:568
+msgid "Free quantity"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:495
+#: woo-discount-rules/view/view-cart-rules.php:497
+msgid "Free shipping"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:312
+msgid "Free shipping text to be displayed"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:115
+#: woo-discount-rules/view/view-pricing-rules.php:125
+#: woo-discount-rules/view/view-pricing-rules.php:444
+msgid "From"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:59
+#: woo-discount-rules/view/view-pricing-rules.php:43
+msgid "General"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:23
+msgid "General Settings"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:398
+msgid "Greater than or equal to"
+msgstr ""
+
+#. Text in function
+#: woo-discount-rules/helper/general-helper.php:1
+msgid "Guest"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:417
+#: woo-discount-rules/view/view-pricing-rules.php:402
+msgid "In Order status"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:158
+msgid "It displays only if any rule matches"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:585
+msgid "Item count"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:592
+msgid "Item quantity"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:442
+msgid "Less than"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:399
+msgid "Less than or equal to"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:30
+msgid "License Key :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:48
+msgid "License key seems to be Invalid. Please enter a valid license key"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:622
+msgid "Limited percent"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/template/sidebar.php:7
+msgid "Looking for more features? Upgrade to PRO"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:511
+msgid "Max Quantity"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:86
+msgid "Method"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:504
+msgid "Min Quantity"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:441
+msgid "More than"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:565
+msgid "More than one cheapest from all"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:564
+msgid "More than one cheapest from selected"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:563
+msgid "More than one cheapest from selected category"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:114
+#: woo-discount-rules/view/pricing-rules.php:143
+#: woo-discount-rules/view/template/discount-table.php:12
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/includes/footer.php:5
+msgid "Need help in setting up the rules?"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:54
+msgid "New Cart Rule"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:38
+msgid "New Price Rule"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:124
+#: woo-discount-rules/view/view-cart-rules.php:455
+#: woo-discount-rules/view/view-pricing-rules.php:133
+#: woo-discount-rules/view/view-pricing-rules.php:474
+msgid "Next"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:69
+#: woo-discount-rules/view/settings.php:81
+#: woo-discount-rules/view/settings.php:206
+#: woo-discount-rules/view/settings.php:269
+msgid "No"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/template/discount-table.php:45
+msgid "No Active Discounts."
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:169
+msgid "Number of line items in the cart (not quantity) at least"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:173
+msgid "Number of line items in the cart (not quantity) less than"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:247
+#: woo-discount-rules/view/view-pricing-rules.php:249
+msgid "Only Given"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:117
+#: woo-discount-rules/view/pricing-rules.php:146
+msgid "Order"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:63
+#: woo-discount-rules/view/view-pricing-rules.php:47
+msgid "Order :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:651
+msgid "Percent"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:480
+#: woo-discount-rules/view/view-pricing-rules.php:523
+msgid "Percentage Discount"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:102
+#: woo-discount-rules/view/view-pricing-rules.php:112
+msgid "Period of Rule Active. Format: month/day/Year Hour:Min"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/includes/footer.php:5
+msgid "Please contact our support team"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:454
+#: woo-discount-rules/view/view-cart-rules.php:514
+#: woo-discount-rules/view/view-pricing-rules.php:473
+#: woo-discount-rules/view/view-pricing-rules.php:658
+msgid "Previous"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:486
+#: woo-discount-rules/view/view-cart-rules.php:488
+#: woo-discount-rules/view/view-pricing-rules.php:531
+#: woo-discount-rules/view/view-pricing-rules.php:533
+msgid "Price Discount"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/pricing-rules.php:54
+msgid "Price Rules"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:86
+msgid "Price rules settings"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:541
+#: woo-discount-rules/view/view-pricing-rules.php:543
+msgid "Product Discount"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:452
+msgid "Product(s) from"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:287
+#: woo-discount-rules/view/view-pricing-rules.php:371
+msgid "Purchase History"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:446
+#: woo-discount-rules/view/view-pricing-rules.php:449
+#: woo-discount-rules/view/view-pricing-rules.php:462
+msgid "Quantity"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:176
+msgid "Quantity Sum"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:94
+msgid "Quantity based by product/category and BOGO deals"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/template/discount-table.php:15
+msgid "Range"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:444
+#: woo-discount-rules/view/view-pricing-rules.php:636
+msgid "Remove"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:90
+#: woo-discount-rules/view/view-pricing-rules.php:75
+msgid "Rule Description"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:78
+#: woo-discount-rules/view/view-pricing-rules.php:63
+msgid "Rule Name"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:231
+msgid "Rule Setup for Cart:"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:94
+msgid "Rule Setup for Price:"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:235
+#: woo-discount-rules/view/view-cart-rules.php:237
+msgid "Shipping country in list"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:281
+#: woo-discount-rules/view/view-cart-rules.php:283
+msgid "Shipping state"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:189
+msgid "Show"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:183
+msgid "Show Discount Title on Table :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:127
+msgid "Show Price discount on product page :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:146
+msgid "Show Sale tag on product page :"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:200
+msgid "Show strikeout discount in cart item"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:460
+msgid "Skip first quantity(s)"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:168
+#: woo-discount-rules/view/view-pricing-rules.php:170
+msgid "Specific attributes"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:159
+#: woo-discount-rules/view/view-pricing-rules.php:161
+msgid "Specific categories"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:153
+msgid "Specific products"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:115
+#: woo-discount-rules/view/pricing-rules.php:144
+msgid "Start Date"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:325
+msgid "Subtotal"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:159
+msgid "Subtotal at least"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:336
+msgid "Subtotal atleast"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:163
+msgid "Subtotal less than"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:330
+#: woo-discount-rules/view/view-pricing-rules.php:553
+msgid "Supported in PRO version"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:350
+msgid "Supported in WooCommerce 3.x"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:119
+msgid "To"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:129
+msgid "To - Leave Empty if No Expiry"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:185
+msgid "Total number of quantities in the cart at least"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:197
+msgid "Total number of quantities in the cart less than"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:396
+msgid "Total purchased amount "
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:416
+msgid "Total purchased amount at least"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:152
+msgid "Type"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:298
+msgid "Use Woo-Discount free shipping"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:295
+msgid "Use Woocommerce free shipping"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:215
+#: woo-discount-rules/view/view-cart-rules.php:217
+msgid "User in list"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:225
+#: woo-discount-rules/view/view-cart-rules.php:227
+msgid "User role in list"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:263
+msgid "User roles"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:101
+#: woo-discount-rules/view/view-pricing-rules.php:111
+msgid "Validity"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:325
+#: woo-discount-rules/view/view-pricing-rules.php:547
+#: woo-discount-rules/view/view-pricing-rules.php:653
+msgid "Value"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:26
+#: woo-discount-rules/view/pricing-rules.php:58
+msgid "View Examples"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:72
+#: woo-discount-rules/view/view-pricing-rules.php:57
+msgid "WARNING: More than one rule should not have same priority."
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/settings.php:68
+#: woo-discount-rules/view/settings.php:80
+#: woo-discount-rules/view/settings.php:205
+#: woo-discount-rules/view/settings.php:268
+msgid "Yes"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:379
+msgid "Yes, based on Purchase history."
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/cart-rules.php:37
+#: woo-discount-rules/view/pricing-rules.php:69
+msgid "You Reach Max. Rule Limit"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:619
+msgid "and"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:456
+msgid "and get discount in "
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:631
+msgid "as discount"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:573
+msgid "ex. 1"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:552
+msgid "ex. 50"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-pricing-rules.php:448
+msgid "to"
+msgstr ""
+
+#. Text in echo
+#: woo-discount-rules/view/view-cart-rules.php:506
+msgid "value :"
+msgstr ""

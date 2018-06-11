@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "48c82d9b450bf8595e80c127f8e172e6",
+    "content-hash": "eab8391d65b036ecaf1c4ff4e0b22ed8",
     "packages": [
         {
             "name": "composer/installers",
@@ -567,26 +567,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
-        },
-        {
-            "name": "wpackagist-plugin/woo-discount-rules",
-            "version": "1.6.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-discount-rules/",
-                "reference": "tags/1.6.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-discount-rules.1.6.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-discount-rules/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
