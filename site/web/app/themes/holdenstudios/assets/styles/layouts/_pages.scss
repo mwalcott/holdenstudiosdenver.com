@@ -9,6 +9,14 @@ body.sunset {
 }
 */
 
+.product-type-grouped {
+	.group_table {
+		.label {
+			color: $brand-primary;
+		}
+	}
+}
+
 body.single-product {
 	.main {
 		margin-top: 3rem;
