@@ -27,7 +27,7 @@ function title() {
     return __('Not Found', 'sage');
   } else {
 	  if (strpos($url,'2187') !== false) {
-			return __('Colorado Wedding Guestbook', 'sage');
+			return __('Flag / Guestbook', 'sage');
 		} else {
 			return get_the_title();	
 		}
