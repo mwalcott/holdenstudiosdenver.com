@@ -98,8 +98,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	</table>
 	<p></p>
-	<p>Wall Flags ship within 7-10 business days. </p>
+	<p>Wall Flags ship within 7-10 business days.</p>
 	<p>Local pickups are ready within 7-10 business days. Please call (720) 360-5090 to schedule a time for pickup.</p>
+	<p><strong>Red Rocks:</strong> ship within 7-14 business days. Also available for pickup within 7-14 days. If you need it sooner, we also offer a 3-5 day option.</p>
 	<address>
 		3133 W. 31st Ave<br />
 		Denver, CO 80211<br />

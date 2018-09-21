@@ -134,3 +134,27 @@ function replace_default_button(){
         return '<a class="button product_type_simple add_to_cart_button ajax_add_to_cart" href="'. get_permalink() .'">Select</a>';
     }
 }
+
+/**
+ * @snippet       Disable Free Shipping if Cart has Shipping Class (WooCommerce 2.6+)
+ * @how-to        Watch tutorial @ https://businessbloomer.com/?p=19055
+ * @sourcecode    https://businessbloomer.com/?p=19960
+ * @author        Rodolfo Melogli
+ * @testedwith    WooCommerce 3.4.4
+ */
+   
+function businessbloomer_hide_free_shipping_for_shipping_class( $rates, $package ) {
+	$shipping_class_target = 53; // shipping class ID (to find it, see screenshot below)
+	$in_cart = false;
+	foreach( WC()->cart->cart_contents as $key => $values ) {
+		if( $values[ 'data' ]->get_shipping_class_id() == $shipping_class_target ) {
+			$in_cart = true;
+			break;
+		} 
+	}
+	if( $in_cart ) {
+		unset( $rates['free_shipping:7'] ); // shipping method with ID (to find it, see screenshot below)
+	}
+	return $rates;
+}
+add_filter( 'woocommerce_package_rates', 'businessbloomer_hide_free_shipping_for_shipping_class', 10, 2 );
