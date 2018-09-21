@@ -44,8 +44,8 @@ if ( in_array( 'ornaments', $categories ) || in_array( 'coasters', $categories )
 	echo '';	
 }	else {
   echo '<p>All artwork is ready to hang</p>';
-  echo '<p class="ships-free"><strong>All orders over $40 ship free (Excludes Red Rocks). Ships within 7-14 business days.</strong><br />';	
-  echo '<i style="font-size: 1rem;">*excludes corhole sets</i></p>';
+  echo '<p class="ships-free"><strong>All orders over $40 ship free. Ships within 7-14 business days.</strong><br />';	
+  echo '<i style="font-size: 1rem;">*excludes cornhole sets &amp; Red Rocks</i></p>';
 }
 	
 /*
