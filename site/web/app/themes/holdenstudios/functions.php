@@ -39,12 +39,12 @@ $terms = wp_get_post_terms( $post->ID, 'product_cat' );
 foreach ( $terms as $term ) $categories[] = $term->slug;
 
 if ( in_array( 'ornaments', $categories ) || in_array( 'coasters', $categories ) || in_array( 'magnets', $categories ) ) {
-  echo '<p class="ships-free"><strong>Ships within 7-10 business days.</strong></p>';	
+  echo '<p class="ships-free"><strong>Ships within 7-14 business days.</strong></p>';	
 } elseif( in_array( 'cornhole', $categories ) ) {
 	echo '';	
 }	else {
   echo '<p>All artwork is ready to hang</p>';
-  echo '<p class="ships-free"><strong>All orders over $40 ship free. Ships within 7-10 business days.</strong><br />';	
+  echo '<p class="ships-free"><strong>All orders over $40 ship free (Excludes Red Rocks). Ships within 7-14 business days.</strong><br />';	
   echo '<i style="font-size: 1rem;">*excludes corhole sets</i></p>';
 }
 	
