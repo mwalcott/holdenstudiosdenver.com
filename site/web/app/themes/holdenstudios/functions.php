@@ -153,7 +153,7 @@ function businessbloomer_hide_free_shipping_for_shipping_class( $rates, $package
 		} 
 	}
 	if( $in_cart ) {
-		unset( $rates['free_shipping:7'] ); // shipping method with ID (to find it, see screenshot below)
+		unset( $rates['free_shipping:10'] ); // shipping method with ID (to find it, see screenshot below)
 	}
 	return $rates;
 }
