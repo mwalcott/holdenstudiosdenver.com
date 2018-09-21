@@ -66,6 +66,7 @@ use Roots\Sage\Wrapper;
 
 								echo '<div class="col-xs-6 custom-work-item">';
 									the_post_thumbnail( 'square', array( 'class' => 'img-responsive') );
+/*
 									echo '<div class="custom-work-info">';
 										the_title('<h5>', '</h5>');
 										if( get_field('sub_heading') ) {
@@ -78,6 +79,7 @@ use Roots\Sage\Wrapper;
 										
 										
 									echo '</div>';
+*/
 								echo '</div>';
 
 								
