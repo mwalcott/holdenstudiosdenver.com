@@ -42,7 +42,7 @@
 
 		<div class="logo-content container-fluid">
 			<a href="<?= esc_url(home_url('/')); ?>">
-				<img class="img-responsive normal" src="<?= get_template_directory_uri(); ?>/dist/images/logo.png"/>
+				<img class="img-responsive normal" src="<?= get_template_directory_uri(); ?>/dist/images/logo-new.png"/>
 			</a>
 		</div>
 		  
