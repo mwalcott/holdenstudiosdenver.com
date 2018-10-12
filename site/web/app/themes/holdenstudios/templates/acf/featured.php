@@ -60,7 +60,7 @@
 			            <p class="price"><?php woocommerce_get_template( 'loop/price.php' ); ?></p>
 			            
 			            <?php 
-										if( get_the_title() == 'Design Your Own' ) {
+										if( get_the_title() == 'Personalized Flags' ) {
 											echo '<a class="btn btn-primary" href="/customize-your-own/configure/295/">Design Your Own</a>';
 										} elseif( get_the_title() == 'Custom Colorado Wedding Flag' ) {
 											echo '<a class="btn btn-primary" href="/customize-your-own/configure/2187/">Design Your Own</a>';
