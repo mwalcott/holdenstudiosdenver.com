@@ -171,10 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffe5', end
 		display: inline-block;
 	}
 	img {
-		margin-top: 0rem;
-		margin-bottom: 0rem;
-		margin-left: auto;
-		margin-right: auto;
+		margin: .2rem auto .2rem;
 		max-width: 50%;
 	}
 	span {
@@ -184,6 +181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffe5', end
 		padding: 0;
 		img {
 			max-width: 20%;
+			margin: .5rem auto .2rem;
 		}
 	}
 }
