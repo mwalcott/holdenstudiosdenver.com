@@ -54,6 +54,7 @@
     "wpackagist-plugin/woocommerce-mailchimp": "2.1.2",
     "wpackagist-plugin/woocommerce-advanced-free-shipping": "1.1.3",
     "wpackagist-plugin/wp-smushit": "2.7.6",
+    "wpackagist-plugin/add-facebook":"1.5.4",
     "roots/soil": "3.7.0"    
   },
   "require-dev": {
